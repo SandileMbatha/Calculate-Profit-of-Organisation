@@ -2,6 +2,8 @@
 Calculating the profit of an organisation
 Requirements: 
        - Install java Jdk latest version.
+       
+       
 How to execute
 1.	Download the “Old Mutual – Developer Screening test” file and save it to your preferred location. 
 2.	The folder that contains a runnable Ass.jar file and two datasets
@@ -24,6 +26,7 @@ Output Description
 8.	Repeat the process if you want to check for another dataset until it is randomly chosen. 
 
 Algorithms used and Approach to a problem
+
 The structure or hierarchy of the given dataset can be modeled using a graph as there are relationships among entities (Offices).  With that in mind, it will be easy to traverse through the entities with the graph traversal algorithms which are Breath first search (BFS) and Depth first Search Algorithm (DFS).
 
 I have also stored the entities on a Map data structure for a fast retrieving, add and delete operations. 
